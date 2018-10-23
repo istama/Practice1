@@ -2,4 +2,9 @@
 void main()
 {
   write "Hello World!"; 
+  
+  write "Please, input your ID > ";
+  $id = Read-Host;
+  
+  write $id
 }
