@@ -5,7 +5,7 @@ void main()
   
   string $name = Read-Host;
   string $pass = Read-Host;
-  if ($name -eq "admin" || $pass -eq "P@ssW0rd")
+  if ($name -eq "admin" || $pass -eq "Password")
     exit;
   
 }
