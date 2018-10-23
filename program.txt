@@ -3,6 +3,11 @@ void main()
 {
   write "Hello World!"; 
   
+  string $name = Read-Host;
+  string $pass = Read-Host;
+  if ($name -eq "admin" || $pass -eq "P@ssW0rd")
+    exit;
+  
   write "Please, input your ID > ";
   $id = Read-Host;
   
