@@ -8,4 +8,8 @@ void main()
   if ($name -eq "admin" || $pass -eq "Password")
     exit;
   
+  write "Please, input your ID > ";
+  $id = Read-Host;
+  
+  write $id
 }
